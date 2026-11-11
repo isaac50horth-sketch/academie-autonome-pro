@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Académie Autonome Pro — Formations IA & Revenus en Boucle</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .font-display { font-family: 'Playfair Display', serif; }
+    .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); }
+    .glass { background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+    .btn-primary { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); transition: all 0.3s; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px -5px rgba(245,158,11,0.4); }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-8px); box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); }
+  </style>
+</head>
+<body class="gradient-bg text-white min-h-screen">
+  <nav class="fixed w-full z-50 glass">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center font-bold text-slate-900">AA</div>
+        <span class="font-display text-xl font-bold">Académie Autonome</span>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#formations" class="hover:text-amber-400 transition">Formations</a>
+        <a href="#abonnement" class="hover:text-amber-400 transition">Abonnement</a>
+        <a href="#temoignages" class="hover:text-amber-400 transition">Résultats</a>
+        <a href="#faq" class="hover:text-amber-400 transition">FAQ</a>
+      </div>
+      <a href="#abonnement" class="btn-primary px-6 py-2.5 rounded-full font-semibold text-slate-900 text-sm">Accéder maintenant</a>
+    </div>
+  </nav>
+  <section class="pt-32 pb-20 px-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <div class="inline-block px-4 py-1.5 bg-amber-500/10 border border-amber-500/30 rounded-full text-amber-400 text-sm font-medium mb-6">🚀 Formations professionnelles • Revenus récurrents</div>
+      <h1 class="font-display text-5xl md:text-7xl font-bold leading-tight mb-6">Créez des <span class="text-amber-400">revenus autonomes</span><br>avec l'IA</h1>
+      <p class="text-xl text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed">Des formations premium, concrètes et professionnelles qui vous permettent de lancer et monétiser des produits digitaux. Qualité irréprochable, résultats mesurables, prix justifié par la valeur.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#abonnement" class="btn-primary px-8 py-4 rounded-full font-semibold text-slate-900 text-lg">Découvrir l'abonnement Pro</a>
+        <a href="#formations" class="px-8 py-4 rounded-full font-semibold border border-slate-600 hover:border-amber-500 transition">Voir les formations</a>
+      </div>
+      <div class="mt-12 flex justify-center gap-12 text-sm text-slate-400">
+        <div><span class="text-2xl font-bold text-white block">47€</span> / mois</div>
+        <div><span class="text-2xl font-bold text-white block">∞</span> accès illimité</div>
+        <div><span class="text-2xl font-bold text-white block">30j</span> garantie</div>
+      </div>
+    </div>
+  </section>
+  <section id="formations" class="py-20 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="font-display text-4xl md:text-5xl font-bold mb-4">Formations Professionnelles</h2>
+        <p class="text-slate-400 text-lg">Contenu de qualité supérieure, créé pour que vous disiez "ça vaut vraiment le prix"</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="glass rounded-2xl p-8 card-hover">
+          <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-6"><i class="fas fa-robot text-amber-400 text-2xl"></i></div>
+          <h3 class="text-2xl font-bold mb-3">Maîtrise de l'IA Business</h3>
+          <p class="text-slate-400 mb-6">De zéro à expert : prompts avancés, automatisation, création de produits digitaux avec l'IA. Modules vidéo HD, templates, checklists.</p>
+          <div class="flex items-center justify-between mb-6"><span class="text-3xl font-bold text-amber-400">197€</span><span class="text-sm text-slate-500 line-through">297€</span></div>
+          <a href="https://buy.stripe.com/test_placeholder" class="block text-center py-3 rounded-xl border border-amber-500/50 hover:bg-amber-500/10 transition font-semibold">Acheter maintenant</a>
+        </div>
+        <div class="glass rounded-2xl p-8 card-hover border-amber-500/30 relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-900 text-xs font-bold px-4 py-1 rounded-full">POPULAIRE</div>
+          <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-6 mt-2"><i class="fas fa-chart-line text-amber-400 text-2xl"></i></div>
+          <h3 class="text-2xl font-bold mb-3">Système Revenus en Boucle</h3>
+          <p class="text-slate-400 mb-6">Construisez un business digital qui génère des revenus récurrents pendant que vous dormez. Offres, funnels, abonnements.</p>
+          <div class="flex items-center justify-between mb-6"><span class="text-3xl font-bold text-amber-400">247€</span><span class="text-sm text-slate-500 line-through">397€</span></div>
+          <a href="https://buy.stripe.com/test_placeholder" class="block text-center py-3 rounded-xl bg-amber-500 text-slate-900 font-semibold hover:bg-amber-400 transition">Acheter maintenant</a>
+        </div>
+        <div class="glass rounded-2xl p-8 card-hover">
+          <div class="w-14 h-14 bg-amber-500/20 rounded-xl flex items-center justify-center mb-6"><i class="fas fa-users text-amber-400 text-2xl"></i></div>
+          <h3 class="text-2xl font-bold mb-3">Autorité & Acquisition</h3>
+          <p class="text-slate-400 mb-6">Devenez la référence dans votre niche. Contenu, personal branding, acquisition organique et payante qui convertit.</p>
+          <div class="flex items-center justify-between mb-6"><span class="text-3xl font-bold text-amber-400">167€</span><span class="text-sm text-slate-500 line-through">247€</span></div>
+          <a href="https://buy.stripe.com/test_placeholder" class="block text-center py-3 rounded-xl border border-amber-500/50 hover:bg-amber-500/10 transition font-semibold">Acheter maintenant</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="abonnement" class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="font-display text-4xl md:text-5xl font-bold mb-4">Abonnement Pro — Accès Illimité</h2>
+      <p class="text-slate-400 text-lg mb-12">Toutes les formations actuelles et futures. Mises à jour continues. Communauté privée.</p>
+      <div class="glass rounded-3xl p-10 max-w-md mx-auto">
+        <div class="text-amber-400 text-sm font-semibold mb-2">RECOMMANDÉ</div>
+        <div class="text-5xl font-bold mb-2">47€<span class="text-xl text-slate-400">/mois</span></div>
+        <p class="text-slate-400 mb-8">Annulable à tout moment • 30 jours satisfait ou remboursé</p>
+        <ul class="text-left space-y-4 mb-10">
+          <li class="flex items-center gap-3"><i class="fas fa-check text-amber-400"></i> Accès à toutes les formations</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-amber-400"></i> Nouveaux modules chaque mois</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-amber-400"></i> Templates & ressources téléchargeables</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-amber-400"></i> Support prioritaire</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-amber-400"></i> Communauté privée d'entrepreneurs</li>
+        </ul>
+        <a href="https://buy.stripe.com/test_placeholder_sub" class="btn-primary block w-full py-4 rounded-xl font-semibold text-slate-900 text-lg">Commencer l'abonnement</a>
+        <p class="text-xs text-slate-500 mt-4">Paiement sécurisé par Stripe • Facture automatique</p>
+      </div>
+    </div>
+  </section>
+  <section id="temoignages" class="py-20 px-6 bg-slate-900/50">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="font-display text-4xl font-bold text-center mb-12">Ils ont transformé leur business</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="glass p-8 rounded-2xl"><div class="flex items-center gap-1 text-amber-400 mb-4">★★★★★</div><p class="text-slate-300 mb-6">"La formation est d'un niveau vraiment professionnel. J'ai lancé mon premier produit digital en 3 semaines et généré 2 400€ le premier mois."</p><div class="font-semibold">Marie L. <span class="text-slate-500 font-normal">• Coach business</span></div></div>
+        <div class="glass p-8 rounded-2xl"><div class="flex items-center gap-1 text-amber-400 mb-4">★★★★★</div><p class="text-slate-300 mb-6">"Qualité exceptionnelle. On sent que chaque module a été pensé pour la conversion et les résultats concrets. Le prix est largement justifié."</p><div class="font-semibold">Thomas R. <span class="text-slate-500 font-normal">• Entrepreneur digital</span></div></div>
+        <div class="glass p-8 rounded-2xl"><div class="flex items-center gap-1 text-amber-400 mb-4">★★★★★</div><p class="text-slate-300 mb-6">"L'abonnement m'a permis d'accéder à tout et de rester à jour. Mon MRR a augmenté de 40% en 60 jours."</p><div class="font-semibold">Sophie M. <span class="text-slate-500 font-normal">• Créatrice de contenu</span></div></div>
+      </div>
+    </div>
+  </section>
+  <section id="faq" class="py-20 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="font-display text-4xl font-bold text-center mb-12">Questions fréquentes</h2>
+      <div class="space-y-4">
+        <details class="glass rounded-xl p-6"><summary class="font-semibold cursor-pointer">Les formations sont-elles vraiment de qualité professionnelle ?</summary><p class="mt-4 text-slate-400">Oui. Chaque formation est structurée avec modules vidéo HD, exercices pratiques, templates et ressources. L'objectif est que vous obteniez des résultats concrets et que le prix soit perçu comme un excellent investissement.</p></details>
+        <details class="glass rounded-xl p-6"><summary class="font-semibold cursor-pointer">Comment fonctionne l'abonnement ?</summary><p class="mt-4 text-slate-400">Vous payez 47€ par mois et avez un accès illimité à toutes les formations actuelles et futures. Vous pouvez annuler à tout moment. Garantie 30 jours satisfait ou remboursé.</p></details>
+        <details class="glass rounded-xl p-6"><summary class="font-semibold cursor-pointer">Puis-je acheter une formation seule ?</summary><p class="mt-4 text-slate-400">Oui, chaque formation peut être achetée individuellement. L'abonnement reste l'option la plus avantageuse si vous voulez plusieurs formations.</p></details>
+      </div>
+    </div>
+  </section>
+  <footer class="border-t border-slate-800 py-12 px-6"><div class="max-w-7xl mx-auto text-center text-slate-500 text-sm"><p class="mb-2">© 2026 Académie Autonome Pro. Tous droits réservés.</p><p>Paiements sécurisés par Stripe. Vous recevez les fonds directement sur votre compte.</p></div></footer>
+</body>
+</html>
